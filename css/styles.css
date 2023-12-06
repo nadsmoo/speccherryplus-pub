@@ -125,7 +125,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
-  font-family: ZX Spectrum 7 Bold;
+  font-family: "ZX Spectrum 7 Bold";
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -135,6 +135,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
+  font-family: "ZX Spectrum 7 Bold";
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -3839,7 +3840,8 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
 }
-.navbar-brand {
+.navbar-brand {  
+  font-family: "ZX Spectrum 7 Bold";
   padding-top: var(--bs-navbar-brand-padding-y);
   padding-bottom: var(--bs-navbar-brand-padding-y);
   margin-right: var(--bs-navbar-brand-margin-end);
