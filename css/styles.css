@@ -11200,7 +11200,9 @@ body {
 }
 
 .logo-image {
-width:36px;
-margin-right:10px;
-
+  width: 50px;
+  margin-right: 11px;
+  background-color: #545454;
+  border-radius: 15px;
+  border: 1px solid black;
 }
